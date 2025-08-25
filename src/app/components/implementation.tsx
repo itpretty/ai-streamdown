@@ -36,10 +36,10 @@ export default function Page() {
           value={input}
           onChange={e => setInput(e.target.value)}
           disabled={status !== 'ready'}
-          placeholder="Say something..."
+          placeholder="说点什么..."
         />
         <button type="submit" disabled={status !== 'ready'}>
-          Submit
+          提交
         </button>
       </form>
     </>
@@ -80,10 +80,10 @@ export default function Page() {
           value={input}
           onChange={e => setInput(e.target.value)}
           disabled={status !== 'ready'}
-          placeholder="Say something..."
+          placeholder="说点什么..."
         />
         <button type="submit" disabled={status !== 'ready'}>
-          Submit
+          提交
         </button>
       </form>
     </>
@@ -92,10 +92,10 @@ export default function Page() {
 `;
 
 const cssCode = `/*
- * Update your Tailwind globals.css
- * to include the following code.
- * This will ensure that the Streamdown
- * styles are applied to your project.
+ * 更新你的 Tailwind globals.css
+ * 以包含以下代码。
+ * 这将确保 Streamdown 的
+ * 样式应用到你的项目中。
  */
 
 @source "../node_modules/streamdown/dist/index.js";`;
@@ -103,13 +103,12 @@ const cssCode = `/*
 export const Implementation = () => (
   <div className="divide-y sm:grid sm:grid-cols-3 sm:divide-x sm:divide-y-0">
     <div className="space-y-2 px-4 pt-8 pb-16 sm:p-8!">
-      <h2 className="font-semibold text-2xl tracking-tight">Overview</h2>
+      <h2 className="font-semibold text-2xl tracking-tight">概述</h2>
       <p className="text-muted-foreground">
-        Formatting Markdown is easy, but when you tokenize and stream it, new
-        challenges arise.
+        格式Markdown很简单，但当你对其进行分词和流式传输时，新的挑战就出现了。
       </p>
       <p className="text-muted-foreground">
-        With{' '}
+        使用{' '}
         <a
           className="font-medium text-blue-600 underline"
           href="https://ai-sdk.dev/elements"
@@ -118,15 +117,13 @@ export const Implementation = () => (
         >
           AI Elements
         </a>
-        , we wanted a way to stream safe and perfectly formatted Markdown
-        without having to worry about the details.
+        ，我们希望有一种方法能够流式传输安全且完美格式化的Markdown，而无需担心具体的细节。
       </p>
       <p className="text-muted-foreground">
-        So we built Streamdown, a drop-in replacement for react-markdown,
-        designed for AI-powered streaming.
+        所以我们构建了Streamdown，一个react-markdown的直接替代品，专为AI驱动的流式传输而设计。
       </p>
       <p className="text-muted-foreground">
-        It powers the AI Elements{' '}
+        它为AI Elements{' '}
         <a
           className="font-medium text-blue-600 underline"
           href="https://ai-sdk.dev/elements/components/response"
@@ -135,7 +132,7 @@ export const Implementation = () => (
         >
           Response
         </a>{' '}
-        component, but you can install it as a standalone package if you want.
+        组件提供支持，但如果你愿意，也可以将其作为独立包安装。
       </p>
     </div>
     <div className="relative bg-background sm:col-span-2">

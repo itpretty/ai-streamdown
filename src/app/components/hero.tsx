@@ -23,16 +23,16 @@ export const Hero = () => (
           Streamdown
         </h1>
         <p className="mx-auto max-w-2xl text-balance text-lg text-muted-foreground md:text-2xl">
-          A drop-in replacement for react-markdown, designed for AI-powered
-          streaming.
+          专为AI驱动的流式渲染设计的react-markdown的直接替代品。
         </p>
         <div className="mx-auto flex w-fit flex-col items-center gap-8 pt-4">
           <Installer />
           <p className="text-muted-foreground text-sm">
-            or install it directly with{' '}
+            或直接使用{' '}
             <code className="rounded-md bg-foreground/5 px-2 py-1 tracking-tight">
               npm i streamdown
             </code>
+            {' '}安装
           </p>
         </div>
       </div>

@@ -13,9 +13,9 @@ import { Styles } from './components/styles';
 import { TerminatorParser } from './components/terminator-parser';
 
 export const metadata: Metadata = {
-  title: 'Streamdown',
+  title: 'Streamdown - AI流式渲染',
   description:
-    'A drop-in replacement for react-markdown, designed for AI-powered streaming.',
+    '专为AI驱动的流式渲染设计的react-markdown的直接替代品。',
 };
 
 const Home = () => (

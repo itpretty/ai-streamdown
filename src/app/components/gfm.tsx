@@ -1,33 +1,33 @@
 import { Section } from './section';
 
-const markdown = `# GitHub Flavored Markdown Features
+const markdown = `# GitHub 风格 Markdown 功能
 
-GFM extends standard Markdown with powerful features. Here's a comprehensive demo:
+GFM 在标准 Markdown 的基础上扩展了强大的功能。这里是一个全面的演示：
 
-## Tables
+## 表格
 
-| Feature | Standard MD | GFM |
+| 功能 | 标准 MD | GFM |
 |---------|------------|-----|
-| Tables | ❌ | ✅ |
-| Task Lists | ❌ | ✅ |
-| Strikethrough | ❌ | ✅ |
+| 表格 | ❌ | ✅ |
+| 任务列表 | ❌ | ✅ |
+| 删除线 | ❌ | ✅ |
 
-## Task Lists
+## 任务列表
 
-- [x] Implement authentication
-- [x] Add database models
-- [ ] Write unit tests
-- [ ] Deploy to production
+- [x] 实现身份验证
+- [x] 添加数据库模型
+- [ ] 编写单元测试
+- [ ] 部署到生产环境
 
-## Strikethrough
+## 删除线
 
-~~Old approach~~ → New approach with AI models
+~~旧的方法~~ → 使用 AI 模型的新方法
 `;
 
 export const GitHubFlavoredMarkdown = () => (
   <Section
-    description="Streamdown supports GitHub Flavored Markdown (GFM) out of the box, so you get things like task lists, tables, and more."
+    description="Streamdown 开箱即用地支持 GitHub 风格 Markdown (GFM)，所以你可以使用任务列表、表格等功能。"
     markdown={markdown}
-    title="GitHub Flavored Markdown"
+    title="GitHub 风格 Markdown"
   />
 );

@@ -1,36 +1,36 @@
 import { Section } from './section';
 
-const markdown = `# AI Models Overview
+const markdown = `# AI 模型概述
 
-Modern AI models have revolutionized how we interact with technology. From **language models** to _computer vision_, these systems demonstrate remarkable capabilities.
+现代 AI 模型彻底改变了我们与技术交互的方式。从**语言模型**到_计算机视觉_，这些系统展示了非凡的能力。
 
-## Key Features
+## 主要特性
 
-### Benefits
-- Natural language understanding
-- Multi-modal processing
-- Real-time inference
+### 优势
+- 自然语言理解
+- 多模态处理
+- 实时推理
 
-### Requirements
-1. GPU acceleration
-2. Model weights
-3. API access
+### 需求
+1. GPU 加速
+2. 模型权重
+3. API 访问
 
-## Architecture
+## 架构
 
 ![Model Architecture](https://placehold.co/600x400)
 
-## Insights
+## 见解
 
-> "The development of full artificial intelligence could spell the end of the human race." — Stephen Hawking
+> “全人工智能的发展可能意味着人类的终结。” —— 史蒂芬·霍金
 
-Learn more about [AI safety](https://example.com) and \`transformer\` architectures.
+了解更多关于 [AI 安全](https://example.com) 和 \`transformer\` 架构的信息。
 `;
 
 export const Styles = () => (
   <Section
-    description="Streamdown comes with built-in Tailwind classes for common Markdown components — headings, lists, code blocks, and more."
+    description="Streamdown 为常见的 Markdown 组件提供内置的 Tailwind 类 —— 标题、列表、代码块等。"
     markdown={markdown}
-    title="Built-in typography styles"
+    title="内置的排版样式"
   />
 );

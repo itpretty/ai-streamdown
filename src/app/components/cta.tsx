@@ -20,11 +20,10 @@ export const CallToAction = () => (
       <div />
       <div className="col-span-10 space-y-4 border-y px-4 py-16 text-center sm:px-8">
         <h1 className="font-semibold text-xl leading-tight tracking-tighter sm:text-2xl md:text-3xl">
-          Upgrade your AI-powered streaming
+          升级你的AI驱动流式传输
         </h1>
         <p className="mx-auto max-w-2xl text-balance text-muted-foreground sm:text-lg md:text-xl">
-          Try Streamdown today and take your AI-powered streaming to the next
-          level.
+          今天就尝试Streamdown，将你的AI驱动流式传输提升到下一个层次。
         </p>
         <div className="mx-auto w-fit pt-4">
           <Installer />

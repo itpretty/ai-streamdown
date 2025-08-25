@@ -26,7 +26,7 @@ export const CodeBlocks = () => (
   <Section
     description={
       <>
-        Streamdown uses{' '}
+        Streamdown 使用{' '}
         <a
           className="underline"
           href="https://shiki.style/"
@@ -35,14 +35,13 @@ export const CodeBlocks = () => (
         >
           Shiki
         </a>{' '}
-        to highlight code blocks, and comes with a copy button so you can easily
-        copy the code.{' '}
+        来高亮显示代码块，并带有复制按钮，方便你复制代码。{' '}
         <span className="font-medium text-blue-600">
-          Hover to reveal the copy button!
+          悬停显示复制按钮！
         </span>
       </>
     }
     markdown={markdown}
-    title="Beautiful, interactive code blocks"
+    title="美观、交互式的代码块"
   />
 );

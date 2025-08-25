@@ -23,7 +23,7 @@ type RootLayoutProps = {
 };
 
 const RootLayout = ({ children }: RootLayoutProps) => (
-  <html lang="en">
+  <html lang="zh-CN">
     <body
       className={cn(
         geistSans.variable,
